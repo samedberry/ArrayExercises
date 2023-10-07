@@ -5,7 +5,7 @@ public class ArrayReverse {
     public static void main(String[] args) {
 
 
-        int[] numbers = {1,2,3,4,5,6,7,8,9,9};
+        int[] numbers = {1,2,1,2,1,2,1,2,1};
 
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(intArrayReverse(numbers)));
@@ -24,3 +24,17 @@ public class ArrayReverse {
         return reversal;
     }
 }
+
+//
+//
+//    //Try a regular for loop and see what happens.
+//    public static int[] intArrayReverse(int[] array) {
+//        int[] reversal = new int[array.length];
+//
+//        for (int i = 0; i < array.length; i++) {
+//            reversal[i] = array[array.length-(i+1)];
+//        }
+//
+//        return reversal;
+//    }
+//}
